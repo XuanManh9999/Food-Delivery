@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Icon Colors -->
+    <color name="ic_launcher_background">#FF6B35</color>
+    <color name="ic_launcher_foreground_color">#FFFFFF</color>
+    <color name="app_icon_background">#FF6B35</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary">#FF6B35</color>
+    <color name="primary_dark">#E55A2B</color>
+    <color name="primary_light">#FF8C5A</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#4A90E2</color>
+    <color name="secondary_dark">#3A7BC8</color>
+    <color name="secondary_light">#6BA3E8</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#1A1A1A</color>
+    <color name="background_gray">#F5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- Border Colors -->
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_medium">#CCCCCC</color>
+    
+    <!-- Error Colors -->
+    <color name="error">#E53935</color>
+    <color name="error_light">#FFEBEE</color>
+    
+    <!-- Success Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_light">#E8F5E9</color>
+    
+    <!-- Warning Colors -->
+    <color name="warning">#FF9800</color>
+    <color name="warning_light">#FFF3E0</color>
+    
+    <!-- Button States -->
+    <color name="button_disabled">#CCCCCC</color>
+    <color name="button_pressed">#E55A2B</color>
+</resources>
+

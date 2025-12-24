@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_icon_background">#FF6B35</color>
+    <color name="background_dark">#1A1A1A</color>
+    <color name="background_gray">#F5F5F5</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_medium">#CCCCCC</color>
+    <color name="button_disabled">#CCCCCC</color>
+    <color name="button_pressed">#E55A2B</color>
+    <color name="error">#E53935</color>
+    <color name="error_light">#FFEBEE</color>
+    <color name="ic_launcher_background">#FF6B35</color>
+    <color name="ic_launcher_foreground_color">#FFFFFF</color>
+    <color name="primary">#FF6B35</color>
+    <color name="primary_dark">#E55A2B</color>
+    <color name="primary_light">#FF8C5A</color>
+    <color name="secondary">#4A90E2</color>
+    <color name="secondary_dark">#3A7BC8</color>
+    <color name="secondary_light">#6BA3E8</color>
+    <color name="success">#4CAF50</color>
+    <color name="success_light">#E8F5E9</color>
+    <color name="text_hint">#999999</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="warning">#FF9800</color>
+    <color name="warning_light">#FFF3E0</color>
+    <string name="app_name">Food Delivery</string>
+    <style name="Theme.FoodDeliveryApp" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/app_icon_background</item>
+        <item name="colorPrimaryVariant">@color/app_icon_background</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        
+        <item name="colorSecondary">#FF6B35</item>
+        <item name="colorSecondaryVariant">#FF6B35</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        
+        <item name="android:colorBackground">#FFFFFF</item>
+        
+        <item name="android:statusBarColor">@color/app_icon_background</item>
+    </style>
+</resources>

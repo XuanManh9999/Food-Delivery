@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+        <!-- Simple food icon shape -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,18C45.7,18 39,24.7 39,33C39,41.3 45.7,48 54,48C62.3,48 69,41.3 69,33C69,24.7 62.3,18 54,18ZM54,42C48.5,42 44,37.5 44,32C44,26.5 48.5,22 54,22C59.5,22 64,26.5 64,32C64,37.5 59.5,42 54,42Z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,28L58,32L54,36L50,32Z"/>
+    </group>
+</vector>
+

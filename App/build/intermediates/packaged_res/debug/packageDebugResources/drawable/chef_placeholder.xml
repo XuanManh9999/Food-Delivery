@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="600dp"
+    android:viewportWidth="400"
+    android:viewportHeight="600">
+    <!-- Placeholder for chef image - replace with actual image -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M200,100 L250,200 L150,200 Z" />
+    <path
+        android:fillColor="#444444"
+        android:pathData="M150,200 L250,200 L250,400 L150,400 Z" />
+</vector>
+

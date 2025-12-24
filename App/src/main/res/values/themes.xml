@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.FoodDeliveryApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/app_icon_background</item>
+        <item name="colorPrimaryVariant">@color/app_icon_background</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#FF6B35</item>
+        <item name="colorSecondaryVariant">#FF6B35</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Background color -->
+        <item name="android:colorBackground">#FFFFFF</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/app_icon_background</item>
+    </style>
+</resources>
+

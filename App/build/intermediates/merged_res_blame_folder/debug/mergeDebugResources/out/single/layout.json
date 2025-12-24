@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-mergeDebugResources-50:\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-mergeDebugResources-50:/layout/activity_registration.xml",
+        "source": "com.fooddelivery.app-main-53:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-mergeDebugResources-50:/layout/activity_login.xml",
+        "source": "com.fooddelivery.app-main-53:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-mergeDebugResources-50:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-mergeDebugResources-50:\\layout\\activity_registration.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-mergeDebugResources-50:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\activity_main.xml"
+    }
+]

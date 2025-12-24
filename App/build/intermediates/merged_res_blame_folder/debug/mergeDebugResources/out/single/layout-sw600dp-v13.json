@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.fooddelivery.app-mergeDebugResources-50:/layout-sw600dp-v13/activity_login.xml",
+        "source": "com.fooddelivery.app-main-53:/layout-sw600dp/activity_login.xml"
+    }
+]
