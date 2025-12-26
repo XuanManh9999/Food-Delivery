@@ -8,13 +8,25 @@
     <color name="border_medium">#CCCCCC</color>
     <color name="button_disabled">#CCCCCC</color>
     <color name="button_pressed">#E55A2B</color>
+    <color name="cart_green">#006400</color>
+    <color name="cart_green_dark">#004D00</color>
     <color name="error">#E53935</color>
     <color name="error_light">#FFEBEE</color>
+    <color name="header_border_blue">#1A3A5C</color>
+    <color name="header_separator_blue">#4A90E2</color>
+    <color name="header_separator_gray">#CCCCCC</color>
     <color name="ic_launcher_background">#FF6B35</color>
     <color name="ic_launcher_foreground_color">#FFFFFF</color>
+    <color name="kfc_red">#E4002B</color>
+    <color name="mcdonalds_red">#FFC72C</color>
+    <color name="menu_header_dark">#1A3A5C</color>
+    <color name="menu_header_darker">#0F2537</color>
+    <color name="menu_selected_bg">#E8F0F8</color>
+    <color name="papa_johns_green">#006491</color>
     <color name="primary">#FF6B35</color>
     <color name="primary_dark">#E55A2B</color>
     <color name="primary_light">#FF8C5A</color>
+    <color name="promo_banner_blue">#1A3A5C</color>
     <color name="secondary">#4A90E2</color>
     <color name="secondary_dark">#3A7BC8</color>
     <color name="secondary_light">#6BA3E8</color>
@@ -24,10 +36,11 @@
     <color name="text_primary">#1A1A1A</color>
     <color name="text_secondary">#666666</color>
     <color name="text_white">#FFFFFF</color>
+    <color name="user_info_orange">#FF6B35</color>
     <color name="warning">#FF9800</color>
     <color name="warning_light">#FFF3E0</color>
     <string name="app_name">Food Delivery</string>
-    <style name="Theme.FoodDeliveryApp" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.FoodDeliveryApp" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/app_icon_background</item>
         <item name="colorPrimaryVariant">@color/app_icon_background</item>
@@ -40,5 +53,7 @@
         <item name="android:colorBackground">#FFFFFF</item>
         
         <item name="android:statusBarColor">@color/app_icon_background</item>
+        
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
     </style>
 </resources>

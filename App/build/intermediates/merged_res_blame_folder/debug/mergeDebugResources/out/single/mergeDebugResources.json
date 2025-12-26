@@ -1,7 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_snackbar_background_error.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\snackbar_background_error.xml"
+        "merged": "com.fooddelivery.app-debug-51:/drawable_button_green.xml.flat",
+        "source": "com.fooddelivery.app-main-53:/drawable/button_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\item_category.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_activity_main.xml.flat",
@@ -12,16 +20,16 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-hdpi\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-xxxhdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-xxxhdpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_logo_uk_box.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\logo_uk_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_app_store.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_app_store.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-xhdpi_ic_launcher.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-xhdpi\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-hdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-hdpi\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-xhdpi_ic_launcher_round.xml.flat",
@@ -36,28 +44,8 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-xxxhdpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_primary.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_primary.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_gray.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_gray.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.fooddelivery.app-debug-51:/layout_activity_login.xml.flat",
-        "source": "com.fooddelivery.app-main-53:/layout/activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_activity_registration.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\activity_registration.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_item_food.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\item_food.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_activity_login.xml.flat",
@@ -68,20 +56,28 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_gradient_overlay.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\gradient_overlay.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_banner_business_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\banner_business_background.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_orange.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_orange.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_facebook.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_facebook.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_snackbar_background.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout-sw600dp_activity_login.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout-sw600dp\\activity_login.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_orange.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_instagram.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_instagram.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_email_input_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\email_input_background.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_secondary_ripple.xml.flat",
@@ -104,32 +100,212 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_primary_ripple.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_primary_ripple.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_item_menu_food.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\item_menu_food.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_badge_background.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\badge_background.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_how_it_works_card.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\how_it_works_card.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_promo_banner_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\promo_banner_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_input_background_error.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\input_background_error.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_chef_placeholder.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\chef_placeholder.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_social_icon_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\social_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_drawer_menu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_snackbar_background_error.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\snackbar_background_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_banner_rider_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\banner_rider_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_google_play.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_google_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_google_play.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_google_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-xxxhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_header_separator_dotted.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\header_separator_dotted.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_item_menu_category.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\item_menu_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_header_border_left.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\header_border_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-hdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_app_store.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_app_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_discount_badge.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\discount_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_statistics_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\statistics_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_faq_item_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\faq_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_fork_knife.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_fork_knife.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_banner_app_download_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\banner_app_download_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_footer_border.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\footer_border.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-debug-51:/drawable_ic_carrot.xml.flat",
+        "source": "com.fooddelivery.app-main-53:/drawable/ic_carrot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_footer_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\footer_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_primary.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_tiktok.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_tiktok.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_item_restaurant.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\item_restaurant.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_placeholder_food.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\placeholder_food.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_gray.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_gray.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-debug-51:/layout_item_topping.xml.flat",
+        "source": "com.fooddelivery.app-main-53:/layout/item_topping.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_social_icon_outline.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\social_icon_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_gradient_overlay.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\gradient_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\layout-sw600dp_activity_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\layout-sw600dp\\activity_login.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-debug-51:/layout_activity_customise_pizza.xml.flat",
+        "source": "com.fooddelivery.app-main-53:/layout/activity_customise_pizza.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-debug-51:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.fooddelivery.app-main-53:/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_primary_ripple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_primary_ripple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_black.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_gift.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_gift.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_badge_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\badge_background.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-xxhdpi_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-xxhdpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.fooddelivery.app-debug-51:/layout_activity_registration.xml.flat",
-        "source": "com.fooddelivery.app-main-53:/layout/activity_registration.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_chef_placeholder.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\chef_placeholder.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-debug-51:/drawable_toppings_header_background.xml.flat",
+        "source": "com.fooddelivery.app-main-53:/drawable/toppings_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_snapchat.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_snapchat.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\xml_network_security_config.xml.flat",
@@ -144,23 +320,23 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\snackbar_background_success.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_input_background.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\input_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_blue.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_blue.xml"
+    },
+    {
+        "merged": "com.fooddelivery.app-debug-51:/drawable_ic_close.xml.flat",
+        "source": "com.fooddelivery.app-main-53:/drawable/ic_close.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_button_secondary.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\button_secondary.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_send.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_send.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\mipmap-mdpi_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\mipmap-mdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-debug-51:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.10\\com.fooddelivery.app-main-53:\\drawable\\ic_send.xml"
     }
 ]

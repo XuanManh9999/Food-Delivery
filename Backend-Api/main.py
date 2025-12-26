@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import auth, registration, food, order, payment
+from routers import auth, registration, food, order, payment, seller
 from database import engine, Base
 from config import settings
 
@@ -29,6 +29,7 @@ app.include_router(registration.router, prefix="/api")
 app.include_router(food.router, prefix="/api")
 app.include_router(order.router, prefix="/api")
 app.include_router(payment.router, prefix="/api")
+app.include_router(seller.router, prefix="/api")
 
 
 @app.get("/")

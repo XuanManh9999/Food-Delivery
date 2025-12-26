@@ -45,5 +45,26 @@
     <!-- Button States -->
     <color name="button_disabled">#CCCCCC</color>
     <color name="button_pressed">#E55A2B</color>
+    
+    <!-- Restaurant Brand Colors -->
+    <color name="mcdonalds_red">#FFC72C</color>
+    <color name="papa_johns_green">#006491</color>
+    <color name="kfc_red">#E4002B</color>
+    <color name="promo_banner_blue">#1A3A5C</color>
+    
+    <!-- Menu Drawer Colors -->
+    <color name="menu_header_dark">#1A3A5C</color>
+    <color name="menu_header_darker">#0F2537</color>
+    <color name="menu_selected_bg">#E8F0F8</color>
+    
+    <!-- User Info Section Colors -->
+    <color name="user_info_orange">#FF6B35</color>
+    <color name="cart_green">#006400</color>
+    <color name="cart_green_dark">#004D00</color>
+    
+    <!-- Header Colors -->
+    <color name="header_border_blue">#1A3A5C</color>
+    <color name="header_separator_blue">#4A90E2</color>
+    <color name="header_separator_gray">#CCCCCC</color>
 </resources>
 

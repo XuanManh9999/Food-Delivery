@@ -15,6 +15,8 @@ class PreferenceManager(context: Context) {
         private const val KEY_USERNAME = "username"
         private const val KEY_USER_ROLE = "user_role"
         private const val KEY_IS_LOGGED_IN = "is_logged_in"
+        private const val KEY_CART_TOTAL = "cart_total"
+        private const val KEY_USER_FULL_NAME = "user_full_name"
     }
     
     fun saveAccessToken(token: String) {
@@ -55,6 +57,22 @@ class PreferenceManager(context: Context) {
     
     fun isLoggedIn(): Boolean {
         return prefs.getBoolean(KEY_IS_LOGGED_IN, false)
+    }
+    
+    fun saveUserFullName(fullName: String) {
+        prefs.edit().putString(KEY_USER_FULL_NAME, fullName).apply()
+    }
+    
+    fun getUserFullName(): String? {
+        return prefs.getString(KEY_USER_FULL_NAME, null)
+    }
+    
+    fun saveCartTotal(total: Double) {
+        prefs.edit().putFloat(KEY_CART_TOTAL, total.toFloat()).apply()
+    }
+    
+    fun getCartTotal(): Double {
+        return prefs.getFloat(KEY_CART_TOTAL, 0f).toDouble()
     }
     
     fun clear() {

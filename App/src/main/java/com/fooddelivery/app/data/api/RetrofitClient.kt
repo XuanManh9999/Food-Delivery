@@ -40,9 +40,10 @@ object RetrofitClient {
         OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
             .addInterceptor(authInterceptor)
-            .connectTimeout(10, TimeUnit.SECONDS) // Reduced timeout
-            .readTimeout(10, TimeUnit.SECONDS)
-            .writeTimeout(10, TimeUnit.SECONDS)
+            .connectTimeout(5, TimeUnit.SECONDS) // Reduced timeout to prevent ANR
+            .readTimeout(5, TimeUnit.SECONDS)
+            .writeTimeout(5, TimeUnit.SECONDS)
+            .retryOnConnectionFailure(false) // Don't retry to fail fast
             .build()
     }
     

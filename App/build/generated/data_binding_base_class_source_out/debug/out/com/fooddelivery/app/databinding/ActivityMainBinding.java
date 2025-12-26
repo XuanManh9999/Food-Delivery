@@ -4,37 +4,360 @@ package com.fooddelivery.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.fooddelivery.app.R;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
-  public final TextView userInfoText;
+  public final LinearLayout appDownloadButtons;
 
   @NonNull
-  public final TextView welcomeText;
+  public final ConstraintLayout businessBanner;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView userInfoText,
-      @NonNull TextView welcomeText) {
+  @NonNull
+  public final Button businessGetStartedButton;
+
+  @NonNull
+  public final ImageView businessImage;
+
+  @NonNull
+  public final CardView businessInfoBox;
+
+  @NonNull
+  public final TextView businessSignupText;
+
+  @NonNull
+  public final TextView businessTitle;
+
+  @NonNull
+  public final LinearLayout cartInfoPanel;
+
+  @NonNull
+  public final TextView cartTotalDisplay;
+
+  @NonNull
+  public final RecyclerView categoriesRecyclerView;
+
+  @NonNull
+  public final TextView categoriesTitle;
+
+  @NonNull
+  public final LinearLayout discountSection;
+
+  @NonNull
+  public final TextView discountTitle;
+
+  @NonNull
+  public final View divider1;
+
+  @NonNull
+  public final View divider2;
+
+  @NonNull
+  public final View divider3;
+
+  @NonNull
+  public final View dottedSeparator;
+
+  @NonNull
+  public final DrawerLayout drawerLayout;
+
+  @NonNull
+  public final TextView faqQuestion1;
+
+  @NonNull
+  public final TextView faqQuestion2;
+
+  @NonNull
+  public final TextView faqQuestion3;
+
+  @NonNull
+  public final TextView faqQuestion4;
+
+  @NonNull
+  public final MaterialButton filterButton;
+
+  @NonNull
+  public final RecyclerView foodItemsRecyclerView;
+
+  @NonNull
+  public final TextView foodItemsTitle;
+
+  @NonNull
+  public final FooterMainBinding footerLayout;
+
+  @NonNull
+  public final View graySeparator;
+
+  @NonNull
+  public final Button howItWorksButton;
+
+  @NonNull
+  public final TextView howItWorksDescription;
+
+  @NonNull
+  public final ConstraintLayout howItWorksSection;
+
+  @NonNull
+  public final LinearLayout knowMoreSection;
+
+  @NonNull
+  public final View leftBorder;
+
+  @NonNull
+  public final LinearLayout locationContainer;
+
+  @NonNull
+  public final TextView locationText;
+
+  @NonNull
+  public final LinearLayout logoContainer;
+
+  @NonNull
+  public final ImageButton menuButton;
+
+  @NonNull
+  public final Button orderingAppStoreButton;
+
+  @NonNull
+  public final ConstraintLayout orderingBanner;
+
+  @NonNull
+  public final TextView orderingDescription;
+
+  @NonNull
+  public final Button orderingGooglePlayButton;
+
+  @NonNull
+  public final ImageView orderingImage;
+
+  @NonNull
+  public final LinearLayout orderingSubtitleContainer;
+
+  @NonNull
+  public final LinearLayout orderingTitleContainer;
+
+  @NonNull
+  public final ImageButton postcodeButton;
+
+  @NonNull
+  public final TextInputEditText postcodeEditText;
+
+  @NonNull
+  public final TextInputLayout postcodeInputLayout;
+
+  @NonNull
+  public final ConstraintLayout promoBanner;
+
+  @NonNull
+  public final TextView promoSubtitle;
+
+  @NonNull
+  public final TextView promoTitle1;
+
+  @NonNull
+  public final TextView promoTitle2;
+
+  @NonNull
+  public final TextView promoTitle3;
+
+  @NonNull
+  public final RecyclerView restaurantsRecyclerView;
+
+  @NonNull
+  public final TextView restaurantsTitle;
+
+  @NonNull
+  public final ConstraintLayout riderBanner;
+
+  @NonNull
+  public final Button riderGetStartedButton;
+
+  @NonNull
+  public final ImageView riderImage;
+
+  @NonNull
+  public final CardView riderInfoBox;
+
+  @NonNull
+  public final TextView riderSignupText;
+
+  @NonNull
+  public final TextView riderTitle;
+
+  @NonNull
+  public final LinearLayout statFoodItems;
+
+  @NonNull
+  public final LinearLayout statOrders;
+
+  @NonNull
+  public final LinearLayout statRestaurants;
+
+  @NonNull
+  public final LinearLayout statRiders;
+
+  @NonNull
+  public final ConstraintLayout statisticsSection;
+
+  @NonNull
+  public final CardView step1Card;
+
+  @NonNull
+  public final CardView step2Card;
+
+  @NonNull
+  public final CardView step3Card;
+
+  @NonNull
+  public final ConstraintLayout topNavBar;
+
+  @NonNull
+  public final LinearLayout userCartSection;
+
+  @NonNull
+  public final LinearLayout userInfoPanel;
+
+  @NonNull
+  public final TextView userNameText;
+
+  @NonNull
+  public final ImageView userProfileImage;
+
+  private ActivityMainBinding(@NonNull DrawerLayout rootView,
+      @NonNull LinearLayout appDownloadButtons, @NonNull ConstraintLayout businessBanner,
+      @NonNull Button businessGetStartedButton, @NonNull ImageView businessImage,
+      @NonNull CardView businessInfoBox, @NonNull TextView businessSignupText,
+      @NonNull TextView businessTitle, @NonNull LinearLayout cartInfoPanel,
+      @NonNull TextView cartTotalDisplay, @NonNull RecyclerView categoriesRecyclerView,
+      @NonNull TextView categoriesTitle, @NonNull LinearLayout discountSection,
+      @NonNull TextView discountTitle, @NonNull View divider1, @NonNull View divider2,
+      @NonNull View divider3, @NonNull View dottedSeparator, @NonNull DrawerLayout drawerLayout,
+      @NonNull TextView faqQuestion1, @NonNull TextView faqQuestion2,
+      @NonNull TextView faqQuestion3, @NonNull TextView faqQuestion4,
+      @NonNull MaterialButton filterButton, @NonNull RecyclerView foodItemsRecyclerView,
+      @NonNull TextView foodItemsTitle, @NonNull FooterMainBinding footerLayout,
+      @NonNull View graySeparator, @NonNull Button howItWorksButton,
+      @NonNull TextView howItWorksDescription, @NonNull ConstraintLayout howItWorksSection,
+      @NonNull LinearLayout knowMoreSection, @NonNull View leftBorder,
+      @NonNull LinearLayout locationContainer, @NonNull TextView locationText,
+      @NonNull LinearLayout logoContainer, @NonNull ImageButton menuButton,
+      @NonNull Button orderingAppStoreButton, @NonNull ConstraintLayout orderingBanner,
+      @NonNull TextView orderingDescription, @NonNull Button orderingGooglePlayButton,
+      @NonNull ImageView orderingImage, @NonNull LinearLayout orderingSubtitleContainer,
+      @NonNull LinearLayout orderingTitleContainer, @NonNull ImageButton postcodeButton,
+      @NonNull TextInputEditText postcodeEditText, @NonNull TextInputLayout postcodeInputLayout,
+      @NonNull ConstraintLayout promoBanner, @NonNull TextView promoSubtitle,
+      @NonNull TextView promoTitle1, @NonNull TextView promoTitle2, @NonNull TextView promoTitle3,
+      @NonNull RecyclerView restaurantsRecyclerView, @NonNull TextView restaurantsTitle,
+      @NonNull ConstraintLayout riderBanner, @NonNull Button riderGetStartedButton,
+      @NonNull ImageView riderImage, @NonNull CardView riderInfoBox,
+      @NonNull TextView riderSignupText, @NonNull TextView riderTitle,
+      @NonNull LinearLayout statFoodItems, @NonNull LinearLayout statOrders,
+      @NonNull LinearLayout statRestaurants, @NonNull LinearLayout statRiders,
+      @NonNull ConstraintLayout statisticsSection, @NonNull CardView step1Card,
+      @NonNull CardView step2Card, @NonNull CardView step3Card, @NonNull ConstraintLayout topNavBar,
+      @NonNull LinearLayout userCartSection, @NonNull LinearLayout userInfoPanel,
+      @NonNull TextView userNameText, @NonNull ImageView userProfileImage) {
     this.rootView = rootView;
-    this.userInfoText = userInfoText;
-    this.welcomeText = welcomeText;
+    this.appDownloadButtons = appDownloadButtons;
+    this.businessBanner = businessBanner;
+    this.businessGetStartedButton = businessGetStartedButton;
+    this.businessImage = businessImage;
+    this.businessInfoBox = businessInfoBox;
+    this.businessSignupText = businessSignupText;
+    this.businessTitle = businessTitle;
+    this.cartInfoPanel = cartInfoPanel;
+    this.cartTotalDisplay = cartTotalDisplay;
+    this.categoriesRecyclerView = categoriesRecyclerView;
+    this.categoriesTitle = categoriesTitle;
+    this.discountSection = discountSection;
+    this.discountTitle = discountTitle;
+    this.divider1 = divider1;
+    this.divider2 = divider2;
+    this.divider3 = divider3;
+    this.dottedSeparator = dottedSeparator;
+    this.drawerLayout = drawerLayout;
+    this.faqQuestion1 = faqQuestion1;
+    this.faqQuestion2 = faqQuestion2;
+    this.faqQuestion3 = faqQuestion3;
+    this.faqQuestion4 = faqQuestion4;
+    this.filterButton = filterButton;
+    this.foodItemsRecyclerView = foodItemsRecyclerView;
+    this.foodItemsTitle = foodItemsTitle;
+    this.footerLayout = footerLayout;
+    this.graySeparator = graySeparator;
+    this.howItWorksButton = howItWorksButton;
+    this.howItWorksDescription = howItWorksDescription;
+    this.howItWorksSection = howItWorksSection;
+    this.knowMoreSection = knowMoreSection;
+    this.leftBorder = leftBorder;
+    this.locationContainer = locationContainer;
+    this.locationText = locationText;
+    this.logoContainer = logoContainer;
+    this.menuButton = menuButton;
+    this.orderingAppStoreButton = orderingAppStoreButton;
+    this.orderingBanner = orderingBanner;
+    this.orderingDescription = orderingDescription;
+    this.orderingGooglePlayButton = orderingGooglePlayButton;
+    this.orderingImage = orderingImage;
+    this.orderingSubtitleContainer = orderingSubtitleContainer;
+    this.orderingTitleContainer = orderingTitleContainer;
+    this.postcodeButton = postcodeButton;
+    this.postcodeEditText = postcodeEditText;
+    this.postcodeInputLayout = postcodeInputLayout;
+    this.promoBanner = promoBanner;
+    this.promoSubtitle = promoSubtitle;
+    this.promoTitle1 = promoTitle1;
+    this.promoTitle2 = promoTitle2;
+    this.promoTitle3 = promoTitle3;
+    this.restaurantsRecyclerView = restaurantsRecyclerView;
+    this.restaurantsTitle = restaurantsTitle;
+    this.riderBanner = riderBanner;
+    this.riderGetStartedButton = riderGetStartedButton;
+    this.riderImage = riderImage;
+    this.riderInfoBox = riderInfoBox;
+    this.riderSignupText = riderSignupText;
+    this.riderTitle = riderTitle;
+    this.statFoodItems = statFoodItems;
+    this.statOrders = statOrders;
+    this.statRestaurants = statRestaurants;
+    this.statRiders = statRiders;
+    this.statisticsSection = statisticsSection;
+    this.step1Card = step1Card;
+    this.step2Card = step2Card;
+    this.step3Card = step3Card;
+    this.topNavBar = topNavBar;
+    this.userCartSection = userCartSection;
+    this.userInfoPanel = userInfoPanel;
+    this.userNameText = userNameText;
+    this.userProfileImage = userProfileImage;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -59,19 +382,450 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.userInfoText;
-      TextView userInfoText = ViewBindings.findChildViewById(rootView, id);
-      if (userInfoText == null) {
+      id = R.id.appDownloadButtons;
+      LinearLayout appDownloadButtons = ViewBindings.findChildViewById(rootView, id);
+      if (appDownloadButtons == null) {
         break missingId;
       }
 
-      id = R.id.welcomeText;
-      TextView welcomeText = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeText == null) {
+      id = R.id.businessBanner;
+      ConstraintLayout businessBanner = ViewBindings.findChildViewById(rootView, id);
+      if (businessBanner == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, userInfoText, welcomeText);
+      id = R.id.businessGetStartedButton;
+      Button businessGetStartedButton = ViewBindings.findChildViewById(rootView, id);
+      if (businessGetStartedButton == null) {
+        break missingId;
+      }
+
+      id = R.id.businessImage;
+      ImageView businessImage = ViewBindings.findChildViewById(rootView, id);
+      if (businessImage == null) {
+        break missingId;
+      }
+
+      id = R.id.businessInfoBox;
+      CardView businessInfoBox = ViewBindings.findChildViewById(rootView, id);
+      if (businessInfoBox == null) {
+        break missingId;
+      }
+
+      id = R.id.businessSignupText;
+      TextView businessSignupText = ViewBindings.findChildViewById(rootView, id);
+      if (businessSignupText == null) {
+        break missingId;
+      }
+
+      id = R.id.businessTitle;
+      TextView businessTitle = ViewBindings.findChildViewById(rootView, id);
+      if (businessTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.cartInfoPanel;
+      LinearLayout cartInfoPanel = ViewBindings.findChildViewById(rootView, id);
+      if (cartInfoPanel == null) {
+        break missingId;
+      }
+
+      id = R.id.cartTotalDisplay;
+      TextView cartTotalDisplay = ViewBindings.findChildViewById(rootView, id);
+      if (cartTotalDisplay == null) {
+        break missingId;
+      }
+
+      id = R.id.categoriesRecyclerView;
+      RecyclerView categoriesRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (categoriesRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.categoriesTitle;
+      TextView categoriesTitle = ViewBindings.findChildViewById(rootView, id);
+      if (categoriesTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.discountSection;
+      LinearLayout discountSection = ViewBindings.findChildViewById(rootView, id);
+      if (discountSection == null) {
+        break missingId;
+      }
+
+      id = R.id.discountTitle;
+      TextView discountTitle = ViewBindings.findChildViewById(rootView, id);
+      if (discountTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.divider1;
+      View divider1 = ViewBindings.findChildViewById(rootView, id);
+      if (divider1 == null) {
+        break missingId;
+      }
+
+      id = R.id.divider2;
+      View divider2 = ViewBindings.findChildViewById(rootView, id);
+      if (divider2 == null) {
+        break missingId;
+      }
+
+      id = R.id.divider3;
+      View divider3 = ViewBindings.findChildViewById(rootView, id);
+      if (divider3 == null) {
+        break missingId;
+      }
+
+      id = R.id.dottedSeparator;
+      View dottedSeparator = ViewBindings.findChildViewById(rootView, id);
+      if (dottedSeparator == null) {
+        break missingId;
+      }
+
+      DrawerLayout drawerLayout = (DrawerLayout) rootView;
+
+      id = R.id.faqQuestion1;
+      TextView faqQuestion1 = ViewBindings.findChildViewById(rootView, id);
+      if (faqQuestion1 == null) {
+        break missingId;
+      }
+
+      id = R.id.faqQuestion2;
+      TextView faqQuestion2 = ViewBindings.findChildViewById(rootView, id);
+      if (faqQuestion2 == null) {
+        break missingId;
+      }
+
+      id = R.id.faqQuestion3;
+      TextView faqQuestion3 = ViewBindings.findChildViewById(rootView, id);
+      if (faqQuestion3 == null) {
+        break missingId;
+      }
+
+      id = R.id.faqQuestion4;
+      TextView faqQuestion4 = ViewBindings.findChildViewById(rootView, id);
+      if (faqQuestion4 == null) {
+        break missingId;
+      }
+
+      id = R.id.filterButton;
+      MaterialButton filterButton = ViewBindings.findChildViewById(rootView, id);
+      if (filterButton == null) {
+        break missingId;
+      }
+
+      id = R.id.foodItemsRecyclerView;
+      RecyclerView foodItemsRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (foodItemsRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.foodItemsTitle;
+      TextView foodItemsTitle = ViewBindings.findChildViewById(rootView, id);
+      if (foodItemsTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.footerLayout;
+      View footerLayout = ViewBindings.findChildViewById(rootView, id);
+      if (footerLayout == null) {
+        break missingId;
+      }
+      FooterMainBinding binding_footerLayout = FooterMainBinding.bind(footerLayout);
+
+      id = R.id.graySeparator;
+      View graySeparator = ViewBindings.findChildViewById(rootView, id);
+      if (graySeparator == null) {
+        break missingId;
+      }
+
+      id = R.id.howItWorksButton;
+      Button howItWorksButton = ViewBindings.findChildViewById(rootView, id);
+      if (howItWorksButton == null) {
+        break missingId;
+      }
+
+      id = R.id.howItWorksDescription;
+      TextView howItWorksDescription = ViewBindings.findChildViewById(rootView, id);
+      if (howItWorksDescription == null) {
+        break missingId;
+      }
+
+      id = R.id.howItWorksSection;
+      ConstraintLayout howItWorksSection = ViewBindings.findChildViewById(rootView, id);
+      if (howItWorksSection == null) {
+        break missingId;
+      }
+
+      id = R.id.knowMoreSection;
+      LinearLayout knowMoreSection = ViewBindings.findChildViewById(rootView, id);
+      if (knowMoreSection == null) {
+        break missingId;
+      }
+
+      id = R.id.leftBorder;
+      View leftBorder = ViewBindings.findChildViewById(rootView, id);
+      if (leftBorder == null) {
+        break missingId;
+      }
+
+      id = R.id.locationContainer;
+      LinearLayout locationContainer = ViewBindings.findChildViewById(rootView, id);
+      if (locationContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.locationText;
+      TextView locationText = ViewBindings.findChildViewById(rootView, id);
+      if (locationText == null) {
+        break missingId;
+      }
+
+      id = R.id.logoContainer;
+      LinearLayout logoContainer = ViewBindings.findChildViewById(rootView, id);
+      if (logoContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.menuButton;
+      ImageButton menuButton = ViewBindings.findChildViewById(rootView, id);
+      if (menuButton == null) {
+        break missingId;
+      }
+
+      id = R.id.orderingAppStoreButton;
+      Button orderingAppStoreButton = ViewBindings.findChildViewById(rootView, id);
+      if (orderingAppStoreButton == null) {
+        break missingId;
+      }
+
+      id = R.id.orderingBanner;
+      ConstraintLayout orderingBanner = ViewBindings.findChildViewById(rootView, id);
+      if (orderingBanner == null) {
+        break missingId;
+      }
+
+      id = R.id.orderingDescription;
+      TextView orderingDescription = ViewBindings.findChildViewById(rootView, id);
+      if (orderingDescription == null) {
+        break missingId;
+      }
+
+      id = R.id.orderingGooglePlayButton;
+      Button orderingGooglePlayButton = ViewBindings.findChildViewById(rootView, id);
+      if (orderingGooglePlayButton == null) {
+        break missingId;
+      }
+
+      id = R.id.orderingImage;
+      ImageView orderingImage = ViewBindings.findChildViewById(rootView, id);
+      if (orderingImage == null) {
+        break missingId;
+      }
+
+      id = R.id.orderingSubtitleContainer;
+      LinearLayout orderingSubtitleContainer = ViewBindings.findChildViewById(rootView, id);
+      if (orderingSubtitleContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.orderingTitleContainer;
+      LinearLayout orderingTitleContainer = ViewBindings.findChildViewById(rootView, id);
+      if (orderingTitleContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.postcodeButton;
+      ImageButton postcodeButton = ViewBindings.findChildViewById(rootView, id);
+      if (postcodeButton == null) {
+        break missingId;
+      }
+
+      id = R.id.postcodeEditText;
+      TextInputEditText postcodeEditText = ViewBindings.findChildViewById(rootView, id);
+      if (postcodeEditText == null) {
+        break missingId;
+      }
+
+      id = R.id.postcodeInputLayout;
+      TextInputLayout postcodeInputLayout = ViewBindings.findChildViewById(rootView, id);
+      if (postcodeInputLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.promoBanner;
+      ConstraintLayout promoBanner = ViewBindings.findChildViewById(rootView, id);
+      if (promoBanner == null) {
+        break missingId;
+      }
+
+      id = R.id.promoSubtitle;
+      TextView promoSubtitle = ViewBindings.findChildViewById(rootView, id);
+      if (promoSubtitle == null) {
+        break missingId;
+      }
+
+      id = R.id.promoTitle1;
+      TextView promoTitle1 = ViewBindings.findChildViewById(rootView, id);
+      if (promoTitle1 == null) {
+        break missingId;
+      }
+
+      id = R.id.promoTitle2;
+      TextView promoTitle2 = ViewBindings.findChildViewById(rootView, id);
+      if (promoTitle2 == null) {
+        break missingId;
+      }
+
+      id = R.id.promoTitle3;
+      TextView promoTitle3 = ViewBindings.findChildViewById(rootView, id);
+      if (promoTitle3 == null) {
+        break missingId;
+      }
+
+      id = R.id.restaurantsRecyclerView;
+      RecyclerView restaurantsRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (restaurantsRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.restaurantsTitle;
+      TextView restaurantsTitle = ViewBindings.findChildViewById(rootView, id);
+      if (restaurantsTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.riderBanner;
+      ConstraintLayout riderBanner = ViewBindings.findChildViewById(rootView, id);
+      if (riderBanner == null) {
+        break missingId;
+      }
+
+      id = R.id.riderGetStartedButton;
+      Button riderGetStartedButton = ViewBindings.findChildViewById(rootView, id);
+      if (riderGetStartedButton == null) {
+        break missingId;
+      }
+
+      id = R.id.riderImage;
+      ImageView riderImage = ViewBindings.findChildViewById(rootView, id);
+      if (riderImage == null) {
+        break missingId;
+      }
+
+      id = R.id.riderInfoBox;
+      CardView riderInfoBox = ViewBindings.findChildViewById(rootView, id);
+      if (riderInfoBox == null) {
+        break missingId;
+      }
+
+      id = R.id.riderSignupText;
+      TextView riderSignupText = ViewBindings.findChildViewById(rootView, id);
+      if (riderSignupText == null) {
+        break missingId;
+      }
+
+      id = R.id.riderTitle;
+      TextView riderTitle = ViewBindings.findChildViewById(rootView, id);
+      if (riderTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.statFoodItems;
+      LinearLayout statFoodItems = ViewBindings.findChildViewById(rootView, id);
+      if (statFoodItems == null) {
+        break missingId;
+      }
+
+      id = R.id.statOrders;
+      LinearLayout statOrders = ViewBindings.findChildViewById(rootView, id);
+      if (statOrders == null) {
+        break missingId;
+      }
+
+      id = R.id.statRestaurants;
+      LinearLayout statRestaurants = ViewBindings.findChildViewById(rootView, id);
+      if (statRestaurants == null) {
+        break missingId;
+      }
+
+      id = R.id.statRiders;
+      LinearLayout statRiders = ViewBindings.findChildViewById(rootView, id);
+      if (statRiders == null) {
+        break missingId;
+      }
+
+      id = R.id.statisticsSection;
+      ConstraintLayout statisticsSection = ViewBindings.findChildViewById(rootView, id);
+      if (statisticsSection == null) {
+        break missingId;
+      }
+
+      id = R.id.step1Card;
+      CardView step1Card = ViewBindings.findChildViewById(rootView, id);
+      if (step1Card == null) {
+        break missingId;
+      }
+
+      id = R.id.step2Card;
+      CardView step2Card = ViewBindings.findChildViewById(rootView, id);
+      if (step2Card == null) {
+        break missingId;
+      }
+
+      id = R.id.step3Card;
+      CardView step3Card = ViewBindings.findChildViewById(rootView, id);
+      if (step3Card == null) {
+        break missingId;
+      }
+
+      id = R.id.topNavBar;
+      ConstraintLayout topNavBar = ViewBindings.findChildViewById(rootView, id);
+      if (topNavBar == null) {
+        break missingId;
+      }
+
+      id = R.id.userCartSection;
+      LinearLayout userCartSection = ViewBindings.findChildViewById(rootView, id);
+      if (userCartSection == null) {
+        break missingId;
+      }
+
+      id = R.id.userInfoPanel;
+      LinearLayout userInfoPanel = ViewBindings.findChildViewById(rootView, id);
+      if (userInfoPanel == null) {
+        break missingId;
+      }
+
+      id = R.id.userNameText;
+      TextView userNameText = ViewBindings.findChildViewById(rootView, id);
+      if (userNameText == null) {
+        break missingId;
+      }
+
+      id = R.id.userProfileImage;
+      ImageView userProfileImage = ViewBindings.findChildViewById(rootView, id);
+      if (userProfileImage == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((DrawerLayout) rootView, appDownloadButtons, businessBanner,
+          businessGetStartedButton, businessImage, businessInfoBox, businessSignupText,
+          businessTitle, cartInfoPanel, cartTotalDisplay, categoriesRecyclerView, categoriesTitle,
+          discountSection, discountTitle, divider1, divider2, divider3, dottedSeparator,
+          drawerLayout, faqQuestion1, faqQuestion2, faqQuestion3, faqQuestion4, filterButton,
+          foodItemsRecyclerView, foodItemsTitle, binding_footerLayout, graySeparator,
+          howItWorksButton, howItWorksDescription, howItWorksSection, knowMoreSection, leftBorder,
+          locationContainer, locationText, logoContainer, menuButton, orderingAppStoreButton,
+          orderingBanner, orderingDescription, orderingGooglePlayButton, orderingImage,
+          orderingSubtitleContainer, orderingTitleContainer, postcodeButton, postcodeEditText,
+          postcodeInputLayout, promoBanner, promoSubtitle, promoTitle1, promoTitle2, promoTitle3,
+          restaurantsRecyclerView, restaurantsTitle, riderBanner, riderGetStartedButton, riderImage,
+          riderInfoBox, riderSignupText, riderTitle, statFoodItems, statOrders, statRestaurants,
+          statRiders, statisticsSection, step1Card, step2Card, step3Card, topNavBar,
+          userCartSection, userInfoPanel, userNameText, userProfileImage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

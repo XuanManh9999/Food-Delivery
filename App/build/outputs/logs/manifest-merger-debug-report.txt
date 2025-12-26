@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\Admin\.gradle\caches\8.10\transforms\7116608b85e0b41386848a02ab890cc2\transformed\jetified-viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\Admin\.gradle\caches\8.10\transforms\c986291ceeae9756d73e790147dadf2f\transformed\navigation-common-2.7.6\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\Admin\.gradle\caches\8.10\transforms\5023eb896d4f597ea6783187346ecac1\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
@@ -87,8 +87,8 @@ ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManife
 	android:name
 		ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:8:5-38:19
-INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:8:5-38:19
+ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:8:5-42:19
+INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:8:5-42:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Admin\.gradle\caches\8.10\transforms\c5860f4d30bd1165d4a652d559dc6635\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Admin\.gradle\caches\8.10\transforms\c5860f4d30bd1165d4a652d559dc6635\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.gradle\caches\8.10\transforms\ca8372fb6c435f0700b6e7263cd335a0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -169,6 +169,14 @@ ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManife
 		ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:37:13-37
 	android:name
 		ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:36:13-69
+activity#com.fooddelivery.app.ui.customise.CustomisePizzaActivity
+ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:38:9-41:60
+	android:exported
+		ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:40:13-37
+	android:theme
+		ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:41:13-57
+	android:name
+		ADDED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml:39:13-64
 uses-sdk
 INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\workspace\Code_Thue\Tran-Chuong-app-5tr\App\src\main\AndroidManifest.xml

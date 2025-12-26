@@ -58,6 +58,18 @@ import com.fooddelivery.app.data.models.*
     @GET("api/foods/categories")
     suspend fun getCategories(): Response<List<FoodCategory>>
     
+    // Sellers/Restaurants
+    @GET("api/sellers")
+    suspend fun getSellers(
+        @Query("skip") skip: Int = 0,
+        @Query("limit") limit: Int = 100,
+        @Query("search") search: String? = null,
+        @Query("min_rating") minRating: Double? = null
+    ): Response<List<SellerResponse>>
+    
+    @GET("api/sellers/{seller_id}")
+    suspend fun getSeller(@Path("seller_id") sellerId: Int): Response<SellerResponse>
+    
     // Order
     @POST("api/orders")
     suspend fun createOrder(@Body request: OrderCreateRequest): Response<Order>
@@ -163,16 +175,6 @@ data class DriverCreateRequest(
     val vehicleNumber: String? = null
 )
 
-data class SellerResponse(
-    @com.google.gson.annotations.SerializedName("id")
-    val id: Int,
-    @com.google.gson.annotations.SerializedName("user_id")
-    val userId: Int,
-    @com.google.gson.annotations.SerializedName("store_name")
-    val storeName: String,
-    @com.google.gson.annotations.SerializedName("user")
-    val user: User
-)
 
 data class BuyerResponse(
     @com.google.gson.annotations.SerializedName("id")
@@ -248,5 +250,35 @@ data class ForgotPasswordResponse(
     val message: String,
     @com.google.gson.annotations.SerializedName("status")
     val status: String
+)
+
+data class SellerResponse(
+    @com.google.gson.annotations.SerializedName("id")
+    val id: Int,
+    @com.google.gson.annotations.SerializedName("user_id")
+    val userId: Int,
+    @com.google.gson.annotations.SerializedName("store_name")
+    val storeName: String,
+    @com.google.gson.annotations.SerializedName("store_address")
+    val storeAddress: String,
+    @com.google.gson.annotations.SerializedName("store_phone")
+    val storePhone: String?,
+    @com.google.gson.annotations.SerializedName("store_description")
+    val storeDescription: String?,
+    @com.google.gson.annotations.SerializedName("rating")
+    val rating: Double,
+    @com.google.gson.annotations.SerializedName("total_orders")
+    val totalOrders: Int,
+    @com.google.gson.annotations.SerializedName("user")
+    val user: SellerUser?
+)
+
+data class SellerUser(
+    @com.google.gson.annotations.SerializedName("id")
+    val id: Int,
+    @com.google.gson.annotations.SerializedName("full_name")
+    val fullName: String,
+    @com.google.gson.annotations.SerializedName("phone_number")
+    val phoneNumber: String
 )
 

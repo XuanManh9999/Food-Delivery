@@ -229,6 +229,7 @@ class LoginActivity : AppCompatActivity() {
                                 preferenceManager.saveUserId(user.id)
                                 preferenceManager.saveUsername(user.username)
                                 preferenceManager.saveUserRole(user.role)
+                                preferenceManager.saveUserFullName(user.fullName)
                             }
                         } catch (e: Exception) {
                             android.util.Log.e("LoginActivity", "Failed to get user info: ${e.message}")
